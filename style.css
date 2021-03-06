@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg1,
+.bg2 {
+  height: 100vh;
+  background-image: url("./Google-Mountain-View-Headquarters.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 60vh;
+  background-size: cover;
+}
+
+.ks1 {
+  height: 32vh;
+  background-color: rgba(151, 0, 0, 0.562);
+}
+
+.hc1 {
+  height: 32vh;
+  background-color: rgba(0, 255, 0, 0.562);
+}
+
+.cj1 {
+  height: 30vh;
+  background-color: rgba(0, 26, 255, 0.521);
+}
+
+.ks2 {
+  height: 70vh;
+  background-image: url("./ks.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 60vh;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.cj2 {
+  height: 70vh;
+  background-image: url("./cj.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 30vh;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.hc2 {
+  height: 70vh;
+  background-image: url("./hc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 30vh;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+h1,
+p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+p {
+  font-family: "Akaya Telivigala", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  word-spacing: 5px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: blanchedalmond;
+  color: black;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.bg1 {
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg1 h1{
+  position: sticky;
+  font-size: 4rem;
+  top: 400px;
+  opacity: 1;
+}
+
+.bg1,.bg2 {
+  opacity: 0.8;
+}
